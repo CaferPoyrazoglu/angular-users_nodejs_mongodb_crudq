@@ -1,3 +1,29 @@
 table{
   width: 100%;
 }
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.mat-header-cell{
+color: black;
+font-weight: 600;
+font-size: 1.25rem;
+}
+
+.mat-cell{
+  color: rgb(30, 30, 30);
+  font-size: 1.2rem;
+}
+
+.mat-table{
+  border-radius: 1.4em;
+  overflow:hidden !important;
+}
