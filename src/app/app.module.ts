@@ -42,11 +42,15 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { TopNavComponent } from './layout/top-nav/top-nav.component';
+import { UsersComponent } from './users/users.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopNavComponent
+    TopNavComponent,
+    UsersComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+@font-face {
+  font-family: 'Custom';
+  src: url('assets/fonts/sg.ttf') format('trutetype');
+}
+
+@font-face {
+  font-family: "SG";
+  src: local("SG"), url(./assets/fonts/sg.ttf) format("truetype");
+}
+
+
+* {
+  font-family: 'SG';
+}
+
 .page-header{
-    background-color: #f1f1f1;
+
 }
 
 .page-header h1{
+    font-weight: 500;
     padding: 20px 0;
     margin: 0;
+    margin-top: 20px;
 }
 
 .mt-1{
@@ -13,5 +32,4 @@
 }
 
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
